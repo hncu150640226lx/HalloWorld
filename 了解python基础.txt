@@ -1,0 +1,83 @@
+>python
+进入python，写python程序
+>exit()
+退出
+>pip list
+查看包
+>pip install 包名==版本号
+安装 包
+>pip uninstall 包名
+卸载 包
+>pip -V
+查看版本
+>pip freeze > requirements.txt
+将项目依赖的包输出到指定的requirements.txt
+>pip Install -r -requirements.txt
+使用pip安装requirements.txt中的包
+
+升级pip
+>python -m pip install --upgrade pip
+
+pip install 包名
+安装在这个路径 D:\Program Files (x86)\python 3.6.3\Lib\site-packages
+
+解释运行
+>python XX.py
+
+python3.6.X(解释器+lib+pip命令)
+
+交互式和源文件式
+交互式：所见即所得，但无法保存，过长无法维护
+源文件式：统一编辑，sublime、pycharm，可以长期保存，便于维护
+
+
+单词：
+printf 打印
+defined/define 定义
+syntaxError 语法错误
+NameError 名字错误
+Invalid 无效的
+Character 字符
+directory 文件夹，目录
+Built-in（builtins）内置
+Module 模块
+Raise扔出
+convert 转换
+sequence 队列，序列
+iterable可迭代的
+
+
+变量和命名风格
+字符串
+整形
+浮点数
+布尔
+列表list
+列表set
+字典
+
+命名：
+由字母数字组成，不能以数字开头
+严格区分大小写
+不能和关键字重名
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 
+'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 
+'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 
+'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+查看python关键字
+在python环境下
+>import keyword
+>print(keyword.kwlist)
+
+建议命名
+1.驼峰式
+getName、getElementById
+类名
+GetName、GetElementById
+下划线式
+get_name（推荐）pay_money
+
+弱类型:声明的变量赋什么值，变量就是什么类型
+type(变量名)查看变量类型
+
