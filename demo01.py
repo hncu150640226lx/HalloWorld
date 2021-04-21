@@ -7,3 +7,5 @@ count = 5
 person = '小明'
 print(person,type(person))
 print(money*count)
+
+print('test git vesion2')
